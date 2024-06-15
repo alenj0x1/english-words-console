@@ -5,7 +5,6 @@ ConsoleLogs consoleLogs = new ConsoleLogs();
 
 consoleLogs.Info("Iniciando la aplicación");
 
-if (!await core.CheckWords()) return;
+if (!await core.CheckWordsBase()) return;
 
 core.Welcome();
-
